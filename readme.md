@@ -118,5 +118,4 @@ To flash the .bin over USB **without a ST-Link**, flip the dip switch on the mic
 ## Issues
 
 - No VIA support for STM32 without breadboarding an external EEPROM chip
-- The case blocks the 5V pin, which could be used for adding a RGB strip for underglow
 - Use caution while changing keycaps, as some switches might come out even if hot glued to the plate
