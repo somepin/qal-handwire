@@ -4,6 +4,12 @@ An ergo 35% 3d printed handwired mechanical keyboard for small print beds, inspi
 
 <img src="img/qal.jpg" width="480">
 
+### Related Projects
+
+[QALBLE](https://github.com/somepin/qalble) - My next iteration of this project. Has a top mounted case design and a wireless PCB via the ItsyBitsy nRF52840 daughterboard.
+
+[Adalyn](https://github.com/MarvFPV/Adalyn/) - Aesthetic top mount design featuring a PCB with an integrated microcontroller, by MarvFPV and tominabox1.
+
 ## Project Structure
 
 `/design` - Fusion 360 and STEP files for modification. The timeline is a bit messy since this is my first Fusion 360 project.
@@ -117,5 +123,6 @@ To flash the .bin over USB **without a ST-Link**, flip the dip switch on the mic
 
 ## Issues
 
-- No VIA support for STM32 without breadboarding an external EEPROM chip
+- ~~No VIA support for STM32 without adding an external EEPROM chip~~ Not as much of an issue with QMK PR [#14195](https://github.com/qmk/qmk_firmware/pull/14195)
+
 - Use caution while changing keycaps, as some switches might come out even if hot glued to the plate
