@@ -107,7 +107,7 @@ I used short pieces of stripped wire for the columns and diode legs for the rows
 
 After printing, super glue each side of the integrated top plate and bottom plate together. For the heat set inserts, I like to keep my soldering iron at 250°C. I ring the insert around the soldering iron tip, holding the insert with tweezers to guide it. Then, I remove the iron after the insert is 80% in and quickly flip the case over, pushing the insert the rest of the way in. Clip in the switches to the plate, then hot glue them for added stability.
 
-Solder the switch matrix following the [QMK Hand Wiring Guide](https://beta.docs.qmk.fm/using-qmk/guides/keyboard-building/hand_wire). If using a ST-Link, solder the 90 degree male headers to the side of the microcontroller with the electronics. Slot in the microcontroller to the USB cutout, and solder the wires to the matrix. Attach female-female jumper cable from the male headers to the case cutout. Hot glue the microcontroller and jumper cable headers for extra support.
+Solder the switch matrix following the [QMK Hand Wiring Guide](https://docs.qmk.fm/#/hand_wire). If using a ST-Link, solder the 90 degree male headers to the side of the microcontroller with the electronics. Slot in the microcontroller to the USB cutout, and solder the wires to the matrix. Attach female-female jumper cable from the male headers to the case cutout. Hot glue the microcontroller and jumper cable headers for extra support.
 
 Screw in the bottom plate, install keycaps, and you have yourself a QAL!
 
